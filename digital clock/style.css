@@ -1,0 +1,26 @@
+body{
+    background-image: url(img/istockphoto-1390815938-612x612.jpg);
+    margin: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#clock-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#clock{
+    font-family: sans-serif;
+    font-size: 7rem;
+    background-color: rgba(245, 245, 220, 0.123);
+    font-weight: bold;
+    text-align: center;
+    color: wheat;
+    backdrop-filter: blur(5px);
+    width: 100%;
+}
